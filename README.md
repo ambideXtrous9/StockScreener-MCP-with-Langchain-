@@ -1,20 +1,19 @@
-🧠 Stock Analysis Agent with Qwen3, Ollama, LangChain & MCP
+# 🧠 Stock Analysis Agent with Qwen3, Ollama, LangChain & MCP
 
 This project demonstrates how to build a fully local AI assistant that provides detailed stock analysis using:
 
-    Qwen3: A powerful open-source large language model developed by Alibaba Cloud.
+    1. Qwen3: A powerful open-source large language model developed by Alibaba Cloud.
 
-    Ollama: A tool for running large language models locally.
+    2. Ollama: A tool for running large language models locally.
 
-    LangChain: A framework for developing applications powered by language models.
+    3. LangChain: A framework for developing applications powered by language models.
 
-    MCP (Model Context Protocol): Enables structured tool usage by the language model.
+    4. MCP (Model Context Protocol): Enables structured tool usage by the language model.
 
-    BeautifulSoup: For web scraping financial data from Screener.in.
-    GitHub+1arXiv+1
-    Level Up Coding+1GitHub+1
+    5. BeautifulSoup: For web scraping financial data from Screener.in.
 
-📦 Features
+
+## 📦 Features
 
     🔍 Company Details: Retrieve company name, current price, market cap, PE ratio, ROE, ROCE, and more.
 
@@ -25,38 +24,37 @@ This project demonstrates how to build a fully local AI assistant that provides 
     🔧 Tool Integration: Seamless integration with MCP tools for enhanced functionality.
 
 
-⚙️ Configuration
-MCP Server Setup
+## ⚙️ Configuration
+    MCP Server Setup
+    
+    The MCP server is defined in mcp_config.json.
 
-The MCP server is defined in mcp_config.json.
-GitHub+1YouTube+1
-
-{
-  "mcpServers": {
-    "stock": {
-      "command": "python",
-      "args": ["StockMcp.py"],
-      "transport": "stdio"
+    {
+      "mcpServers": {
+        "stock": {
+          "command": "python",
+          "args": ["StockMcp.py"],
+          "transport": "stdio"
+        }
+      }
     }
-  }
-}
+    
+    
+    Give me the company details of CREDITACC.NS
 
+## 🛠️ Project Structure
 
-Give me the company details of CREDITACC.NS
+    ├── StockMcp.py         # MCP server with tool definitions
+    ├── requirements.txt    # Python dependencies
+    ├── README.md           # Project documentation
 
-🛠️ Project Structure
+## 📚 Resources
 
-├── StockMcp.py         # MCP server with tool definitions
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
-
-📚 Resources
-
-    Qwen3 GitHub Repository
+    MCP Github
 
     Ollama Documentation
 
-    LangChain Documentation
+    LangChain MCP Documentation
 
     BeautifulSoup Documentation
 
