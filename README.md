@@ -1,16 +1,16 @@
-# 🧠 Stock Analysis Agent with Qwen3, Ollama, LangChain & MCP
+# 🧠 Stock Analysis using MCP Local LLM(Ollama Qwen3) with LangChain
 
 This project demonstrates how to build a fully local AI assistant that provides detailed stock analysis using:
 
-    1. Qwen3: A powerful open-source large language model developed by Alibaba Cloud.
+    ### 1. Qwen3: A powerful open-source large language model developed by Alibaba Cloud.
 
-    2. Ollama: A tool for running large language models locally.
+    ### 2. Ollama: A tool for running large language models locally.
 
-    3. LangChain: A framework for developing applications powered by language models.
+    ### 3. LangChain: A framework for developing applications powered by language models.
 
-    4. MCP (Model Context Protocol): Enables structured tool usage by the language model.
+    ### 4. MCP (Model Context Protocol): Enables structured tool usage by the language model.
 
-    5. BeautifulSoup: For web scraping financial data from Screener.in.
+    ### 5. BeautifulSoup: For web scraping financial data from Screener.in.
 
 
 ## 📦 Features
