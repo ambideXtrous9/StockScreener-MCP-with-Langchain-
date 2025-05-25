@@ -1,0 +1,8 @@
+praisonaiagents
+praisonaiagents[llm] 
+mcp
+gradio
+beautifulsoup4
+yfinance
+langchain-mcp-adapters
+langchain_ollama

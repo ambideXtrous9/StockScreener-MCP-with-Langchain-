@@ -1,2 +1,62 @@
-# StockScreener-MCP-with-Langchain-
-StockScreener MCP with Langchain 
+🧠 Stock Analysis Agent with Qwen3, Ollama, LangChain & MCP
+
+This project demonstrates how to build a fully local AI assistant that provides detailed stock analysis using:
+
+    Qwen3: A powerful open-source large language model developed by Alibaba Cloud.
+
+    Ollama: A tool for running large language models locally.
+
+    LangChain: A framework for developing applications powered by language models.
+
+    MCP (Model Context Protocol): Enables structured tool usage by the language model.
+
+    BeautifulSoup: For web scraping financial data from Screener.in.
+    GitHub+1arXiv+1
+    Level Up Coding+1GitHub+1
+
+📦 Features
+
+    🔍 Company Details: Retrieve company name, current price, market cap, PE ratio, ROE, ROCE, and more.
+
+    📈 Profit Analysis: Extract quarterly and yearly net profit data.
+
+    👥 Shareholding Patterns: Analyze holdings by promoters, DIIs, FIIs, and the public.
+
+    🔧 Tool Integration: Seamless integration with MCP tools for enhanced functionality.
+
+
+⚙️ Configuration
+MCP Server Setup
+
+The MCP server is defined in mcp_config.json.
+GitHub+1YouTube+1
+
+{
+  "mcpServers": {
+    "stock": {
+      "command": "python",
+      "args": ["StockMcp.py"],
+      "transport": "stdio"
+    }
+  }
+}
+
+
+Give me the company details of CREDITACC.NS
+
+🛠️ Project Structure
+
+├── StockMcp.py         # MCP server with tool definitions
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
+
+📚 Resources
+
+    Qwen3 GitHub Repository
+
+    Ollama Documentation
+
+    LangChain Documentation
+
+    BeautifulSoup Documentation
+
