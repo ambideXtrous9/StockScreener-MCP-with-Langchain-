@@ -2,13 +2,11 @@
 
 This project demonstrates how to build a fully local AI assistant that provides detailed stock analysis using:
 
-- **Qwen3**: A powerful open-source large language model developed by Alibaba Cloud.
-
-- **Ollama**: A tool for running large language models locally.
-
-- **LangChain**: A framework for developing applications powered by language models.
-
 - **MCP (Model Context Protocol)**: Enables structured tool usage by the language model.
+
+- **Ollama**: A tool for running large language models locally.(**Qwen3**)
+
+- **LangChain**: A framework for developing applications powered by language models and run as MCP Client
 
 - **BeautifulSoup**: For web scraping financial data from Screener.in.
 
